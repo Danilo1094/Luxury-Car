@@ -48,6 +48,9 @@ body{
 .main-header {
   border-bottom: 1px solid #e5e5e5;
   padding: 25px 0;
+  position: sticky;
+  top: 0;
+  background: #FFFFFF;
 }
 .main-header__link {
   color: #030305;
@@ -127,5 +130,8 @@ body{
   display: flex;
   justify-content: space-between;
   padding: 25px 0;
+}
+html{
+  scroll-behavior: smooth;
 }
 
